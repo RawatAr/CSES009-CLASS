@@ -1,0 +1,28 @@
+button{
+    background: magenta;
+    color: white;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background: red;
+    border:solid blue;
+}
+/* a:hover{
+    background: red;
+} */
+a:visited {
+    color: red;
+}
+input:focus{
+    color:yellow;
+    background-color:violet;
+    border: solid 2px red;
+}
+
+li:first-child{
+    color:red;
+}
+li:last-child{
+    color:blue;
+}
