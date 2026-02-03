@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Platform</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+        <h1 class="logo">🛍️ PulseCart</h1>
+        <nav class="nav-links">
+          <a href="history.html" class="history-btn">📜 History</a>
+          <a href="#" class="cart-btn" id="cartBtn">🛒 Cart <span id="cartCount" class="cart-badge">0</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="search-container">
+      <div class="search-box">
+        <input
+          type="text"
+          id="inputBox"
+          placeholder="Search products..."
+          autocomplete="off"
+          class="search-input"
+        />
+        <button id="btn" class="search-btn">🔍 SEARCH</button>
+        <div id="suggestions" class="suggestions-dropdown"></div>
+      </div>
+    </div>
+
+    <main class="main-content">
+      <section class="products-section">
+        <h2 class="section-title">Featured Products</h2>
+        <div id="product-container" class="products"></div>
+      </section>
+      <div id="pagination" class="pagination-wrapper"></div>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 PulseCart. All rights reserved.</p>
+    </footer>
+
+    <button id="scrollTopBtn" class="scroll-top-btn">⬆️</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
