@@ -1,0 +1,40 @@
+Event driven architecture is a design pattern  where flow of application is determined by event, such as user adminnistration.
+
+.on(Event,Listener), it registred a event.
+
+.emit(Event,data), triggers the event
+
+EventEmitter is stringed based
+
+off--emits nothing
+on--emits every time when called
+once--emits only once (doesn't matter how many time it has been called)
+
+http = hyper text transfer protocol
+(browser) and server to talk
+
+http statelessness -- it means server doesn't remember any of it's prevoius request, each request will be independent.
+
+Privous request, user data, login state--for that we use session, cookies and token to store data.
+
+#HTTP REQUEST STRUCTURE
+1. METHOD
+2. URL
+3. HEADER
+4. BODY (optional) 
+
+
+3. HEADER--extra information, eg like ("Conten_type"), application/json, content type, 
+used for--authorization, data format and caching
+
+4.BODY-- contains actual data, it can only send by POST, PUT, PATCH
+
+SERVER-RESPONSE--
+1.Status code
+2. Header
+3.Body
+
+Node js follows event drive architecture, we don't handle request manually, we register an listener
+
+Http module is a bulletein we use to create 
+Points, Response Header
